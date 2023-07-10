@@ -1,7 +1,14 @@
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+.list-items {
+  font-size: 700;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+}
 nav{
-    ul{
-        li{
-            color: blue;
-        }
-    }
+    border-bottom: 1px solid;
 }
