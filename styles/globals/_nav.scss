@@ -3,12 +3,23 @@
   justify-content: center;
 }
 .list-items {
-  font-size: 700;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   list-style-type: none;
   gap: 40px;
+  margin: 5px 0;
 }
-nav{
-    border-bottom: 1px solid;
+nav {
+  margin: 10px 0;
+  border-bottom: 1px solid;
+}
+
+@media screen and (max-width: 576px) {
+  .list-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    text-align: center;
+  }
 }
