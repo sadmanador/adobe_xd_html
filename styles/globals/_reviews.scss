@@ -1,21 +1,20 @@
-.top-wave{
-    position: absolute;
-    top: 474px;
+.top-wave {
+  position: absolute;
+  top: 474px;
 }
-
-
 
 .review-title {
   text-align: center;
   background-color: #f8fafc;
   margin-bottom: 0;
 }
-.review-container{
-
+.review-container {
   background-color: #f8fafc;
   padding-top: 100px;
 }
-
+.review-section {
+  background-color: #f8fafc;
+}
 
 .reviews {
   padding-top: 60px;
@@ -24,7 +23,6 @@
   justify-content: center;
   gap: 40px;
   background-color: #f8fafc;
-
 
   &__item {
     width: 308px;
