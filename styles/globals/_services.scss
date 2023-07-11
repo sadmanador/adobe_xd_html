@@ -1,0 +1,23 @@
+.services-section {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+.services-img {
+  width: 244px;
+  height: 188px;
+}
+.services-card {
+  width: 328px;
+}
+
+@media screen and (max-width: 576px) {
+     .services-section {
+        display: flex; 
+        flex-direction: column;
+      }
+      .services-card {
+        background: #000;
+      }
+}
