@@ -35,3 +35,19 @@ font-weight: 700;
 line-height: 1.1;
 margin-top: 0;
 }
+.primary-btn{
+  background: #1492e6;
+  border: none;
+  color: white;
+  border-radius: 33px;
+  padding: 12px 35px;
+  font-weight: 500;
+  font-size: 23px;
+  height: 65px;
+  width: 247px;
+}
+@media screen and (max-width: 576px) {
+  .auto-margine{
+    padding: 0 1rem;
+  }
+}
