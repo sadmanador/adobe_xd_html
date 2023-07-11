@@ -8,10 +8,19 @@
   justify-content: center;
   list-style-type: none;
   gap: 40px;
+  align-items: center;
 }
 nav {
   padding: 10px 0;
   border-bottom: 1px solid;
+}
+.dropdown {
+  width: 35px;
+  height: 40px;
+}
+.dropdown-parent{
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 576px) {
