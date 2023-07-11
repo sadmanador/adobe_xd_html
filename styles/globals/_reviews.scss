@@ -1,0 +1,41 @@
+.review-section{
+    
+}
+
+
+
+.review-title {
+  text-align: center;
+  background-color: #f8fafc;
+  margin-bottom: 0;
+}
+
+
+.review-container{
+  padding-bottom: 50px;
+  background-color: #f8fafc;
+}
+.reviews {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #f8fafc;
+
+
+  &__item {
+    width: 308px;
+    padding: 38px 16px 48px;
+    background-color: white;
+    border-radius: 19px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    h3 {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    p {
+    }
+  }
+}
