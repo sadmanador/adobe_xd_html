@@ -1,5 +1,6 @@
-.review-section{
-    
+.top-wave{
+    position: absolute;
+    top: 474px;
 }
 
 
@@ -9,14 +10,16 @@
   background-color: #f8fafc;
   margin-bottom: 0;
 }
-
-
 .review-container{
-  padding-bottom: 50px;
+
   background-color: #f8fafc;
+  padding-top: 100px;
 }
+
+
 .reviews {
   padding-top: 60px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   gap: 40px;
