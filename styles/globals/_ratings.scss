@@ -1,0 +1,71 @@
+.star{
+    width: 15px;
+    height: 15px;
+}
+
+section.rating{
+    height: 100vh;
+    margin-top: 50px;
+    
+    h2{
+        text-align: center;
+        
+    }
+}
+
+.logo-title{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 50px 0;
+}
+
+.rating-logo{
+    width: 64px;
+    height: 64px;
+}
+
+.rating-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.rating-banner{
+    background-color: #f8fafc;
+    padding: 40px;
+    margin: 0 50px;
+    position: relative;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+}
+
+
+.rating-container{
+    height: 363px;
+    display: grid;
+    grid-template-columns: 285px 285px 285px;
+    gap: 25px;
+    justify-content: center;
+
+    
+    &__card{
+        background-color: white;
+        box-shadow: 0px 16px 48px #00000029;
+        border-radius: 30px;
+        padding: 21px;
+    }
+}
+
+.card-head{
+    display: flex;
+    justify-content: space-between;
+
+    &__title{
+        display: flex;
+    }
+}
+
+.card{
+    width: 40px;
+}
